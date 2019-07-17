@@ -1,13 +1,15 @@
-const Neat = neataptic.Neat
-const Config = neataptic.Config
+const { Neat, Network, Node} = carrot
+//const Neat = neataptic.Neat
+//const Config = neataptic.Config
 
-Config.warnings = false
+//Config.warnings = false
 
-const neat = new Neat(6, 2, null, {
-    popsize: GAMES,
-    elitism: ELITISM,
-    mutationRate: MUTATION_RATE,
-    mutationAmount: MUTATION_AMOUNT
+const neat = new Neat(6, 2, {
+    population_size: GAMES,
+    elitism: elitism,
+    mutation_rate: mutation_rate,
+    mutation_amount: mutation_amount,
+    //fitness: null
   }
 )
 

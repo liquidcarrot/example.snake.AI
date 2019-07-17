@@ -8,13 +8,13 @@ const FRAME_RATE = 45
 // game bottlenecks
 
 const MAX_TURNS = 5000
-const LOWEST_SCORE_ALLOWED = -50
+const LOWEST_SCORE_ALLOWED = -20
 
 // neural network settings
 
-const MUTATION_RATE = 0.5
-const MUTATION_AMOUNT = 3
-const ELITISM = Math.round(0.2 * GAMES)
+const mutation_rate = 0.5
+const mutation_amount = 3
+const elitism = Math.round(0.15 * GAMES)
 
 // score settings
 
