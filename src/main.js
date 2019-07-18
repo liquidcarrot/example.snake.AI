@@ -1,17 +1,15 @@
-const { Neat, Network, Node} = carrot
-//const Neat = neataptic.Neat
-//const Config = neataptic.Config
+const {Neat} = carrot
 
-//Config.warnings = false
-
-const neat = new Neat(6, 2, {
+ const neat = new Neat(6,2,
+  {
     population_size: GAMES,
     elitism: elitism,
     mutation_rate: mutation_rate,
     mutation_amount: mutation_amount,
-    //fitness: null
   }
-)
+ )
+ 
+console.log(neat);
 
 const chartData = {
   labels: [],
