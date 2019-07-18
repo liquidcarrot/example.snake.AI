@@ -37,7 +37,7 @@ class Runner {
     }
 
     this.neat.sort()
-
+    console.log(this.neat.getFittest().score)
     this.onEndGeneration  ({
       generation: this.neat.generation,
       max: this.neat.getFittest().score,
@@ -46,7 +46,7 @@ class Runner {
     })
 
     const newGeneration = []
-
+    console.log(this.neat)
     for (let i = 0; i < this.neat.elitism; i++) {
       newGeneration.push(this.neat.population[i])
     }

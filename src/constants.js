@@ -13,8 +13,8 @@ const LOWEST_SCORE_ALLOWED = -20
 // neural network settings
 
 const mutation_rate = 0.5
-const mutation_amount = 1
-const elitism = Math.round(0.2 * GAMES)
+const mutation_amount = 3
+const elitism = Math.round(0.15 * GAMES)
 
 // score settings
 
