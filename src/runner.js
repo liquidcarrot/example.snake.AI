@@ -35,9 +35,8 @@ class Runner {
       this.gamesFinished++;
       return;
     }
-
     this.neat.sort()
-    console.log(this.neat.getFittest().score)
+    
     this.onEndGeneration  ({
       generation: this.neat.generation,
       max: this.neat.getFittest().score,
@@ -46,17 +45,37 @@ class Runner {
     })
 
     const newGeneration = []
-    console.log(this.neat)
+    // gets the best of previous generation and inserts them into the next population
     for (let i = 0; i < this.neat.elitism; i++) {
       newGeneration.push(this.neat.population[i])
     }
 
+    // test to see if parent gets returned
     for (let i = 0; i < this.neat.population_size - this.neat.elitism; i++) {
       newGeneration.push(this.neat.getOffspring())
     }
 
     this.neat.population = newGeneration
-    this.neat.mutate()
+    
+    
+    
+    // this.neat.mutate()
+    
+    this.neat.population = this.neat.population.map(function(genome) {
+      
+      // grab a random mutation method
+      const current = methods.mutation.FFW[Math.floor(Math.random() * methods.mutation.FFW.length)]
+      
+      console.log(current)
+      
+      // mutate the genome
+      console.log("mutation succesful: " + genome.mutate(current))
+      
+      // return the mutated genome
+      return genome
+    })
+    
+    
     this.neat.generation++
     this.startGeneration()
   }

@@ -14,7 +14,7 @@ const LOWEST_SCORE_ALLOWED = -20
 
 const mutation_rate = 0.5
 const mutation_amount = 3
-const elitism = Math.round(0.15 * GAMES)
+const elitism = Math.round(0.2 * GAMES)
 
 // score settings
 

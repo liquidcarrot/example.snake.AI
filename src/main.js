@@ -1,4 +1,4 @@
-const {Neat, Network, architect} = carrot
+const {Neat, Network, architect, methods} = carrot
 
  const neat = new Neat(6,2,
   {
@@ -6,7 +6,7 @@ const {Neat, Network, architect} = carrot
     elitism: elitism,
     mutation_rate: mutation_rate,
     mutation_amount: mutation_amount,
-    //fitness:null,
+    // fitness:null,
     equal: false
   }
  )
