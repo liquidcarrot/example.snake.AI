@@ -14,4 +14,5 @@ Using neuroevolution/NEAT method
 
 
 
-                                            Especial thanks to Zonetti author of the original version of this repo:                                                                                                 https://github.com/zonetti/snake-neural-network
+                                            Especial thanks to Zonetti author of the original version of this repo:
+                                                                    https://github.com/zonetti/snake-neural-network
