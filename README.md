@@ -1,11 +1,12 @@
 # example.snake.AI
-Example of Liquid Carrot to play Snake!♥
+Example of using [Carrot](https://github.com/liquidcarrot/carrot) library to play Snake!♥
 
 
-Using neuroevolution/NEAT method
+Using neuro-evolution/NEAT algorithm
+
 ## Stack
 
-* **[Liquid Carrot](https://liquidcarrot.io/):** Neural network and neuro-evolution
+* **[Carrot](https://liquidcarrot.io/):** Neural network and neuro-evolution
 * **[p5.js](https://p5js.org/):** Graphics and animation
 * **[Frappe Charts](https://frappe.github.io/charts/):** Chart showing the score history
 
@@ -14,5 +15,7 @@ Using neuroevolution/NEAT method
 
 
 
-                                            Especial thanks to Zonetti author of the original version of this repo:
-                                                                    https://github.com/zonetti/snake-neural-network
+
+> Special thanks to Zonetti, author of the original version of this demo:
+>
+> https://github.com/zonetti/snake-neural-network
