@@ -10,11 +10,7 @@ Using neuro-evolution/NEAT algorithm
 * **[p5.js](https://p5js.org/):** Graphics and animation
 * **[Frappe Charts](https://frappe.github.io/charts/):** Chart showing the score history
 
-
-
-![Image of Snake Demo](https://github.com/liquidcarrot/example.snake.AI/blob/master/snake-demo-site-landing-page.png)
-
-
+![Gif of Snake Demo](https://github.com/liquidcarrot/example.snake.AI/blob/master/snake-demo.gif)
 
 > Special thanks to Zonetti, author of the original version of this demo:
 >
