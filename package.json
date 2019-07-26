@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/liquidcarrot/example.snake.AI/issues"
   },
-  "homepage": "https://github.com/liquidcarrot/example.snake.AI#readme"
+  "homepage": "https://github.com/liquidcarrot/example.snake.AI#readme",
+  "dependencies": {
+    "@liquid-carrot/carrot": "^0.3.0"
+  }
 }
