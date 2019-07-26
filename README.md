@@ -12,7 +12,7 @@ Using neuro-evolution/NEAT algorithm
 
 
 
-
+![Image of Snake Demo](https://github.com/liquidcarrot/example.snake.AI/blob/master/snake-demo-site-landing-page.png)
 
 
 
