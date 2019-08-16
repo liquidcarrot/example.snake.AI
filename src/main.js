@@ -32,9 +32,9 @@ const chartData = {
 }
 
 const chart = new Chart('#chart', {
-  title: 'generation score history',
+  title: 'Generation score history',
   type: 'line',
-  height: 200,
+  height: 180,
   data: chartData
 })
 

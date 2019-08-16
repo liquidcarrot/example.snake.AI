@@ -4,7 +4,7 @@
 }
 
 body, #top {
-  background: #FFF;
+  background: #FF6513;
 }
 
 #wrapper {
@@ -13,7 +13,7 @@ body, #top {
 }
 
 #top {
-  overflow: hidden;
+  overflow: hidden; 
   height: 350px;
 }
 
@@ -23,6 +23,7 @@ body, #top {
 
 #chart {
   width: 600px;
+  background: #EEE;
 }
 
 #status {
